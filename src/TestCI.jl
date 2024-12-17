@@ -1,5 +1,7 @@
 module TestCI
 
-# Write your package code here.
+export fun
+
+fun(x) = x^3
 
 end
