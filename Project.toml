@@ -1,0 +1,14 @@
+name = "TestCI"
+uuid = "181ecca8-0742-4dd7-8a28-b6573bd45a4a"
+authors = ["Yakir Gagnon <12.yakir@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
